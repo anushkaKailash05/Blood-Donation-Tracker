@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class BloodBankDashboard extends JFrame {
 	private static final String URL = "jdbc:mysql://localhost:3306/blood_donation";
 	private static final String USER = "root";
-	private static final String PASS = "kiran@123";
+	private static final String PASS = "your_password";
 	private Connection con;
 
 	public BloodBankDashboard() {
