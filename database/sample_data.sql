@@ -1,4 +1,186 @@
--- Sample data for Blood Donation Tracker
--- Generated from project report
-
+-- Blood Donation Tracker Large Sample Dataset
 USE blood_donation;
+
+-- Hospital
+INSERT INTO Hospital VALUES
+(1,'hospital1@gmail.com','Hospital 1','9800000001','Street 1','41301','City1'),
+(2,'hospital2@gmail.com','Hospital 2','9800000002','Street 2','41302','City2'),
+(3,'hospital3@gmail.com','Hospital 3','9800000003','Street 3','41303','City3'),
+(4,'hospital4@gmail.com','Hospital 4','9800000004','Street 4','41304','City4'),
+(5,'hospital5@gmail.com','Hospital 5','9800000005','Street 5','41305','City5'),
+(6,'hospital6@gmail.com','Hospital 6','9800000006','Street 6','41306','City6'),
+(7,'hospital7@gmail.com','Hospital 7','9800000007','Street 7','41307','City7'),
+(8,'hospital8@gmail.com','Hospital 8','9800000008','Street 8','41308','City8'),
+(9,'hospital9@gmail.com','Hospital 9','9800000009','Street 9','41309','City9'),
+(10,'hospital10@gmail.com','Hospital 10','9800000010','Street 10','41310','City10'),
+(11,'hospital11@gmail.com','Hospital 11','9800000011','Street 11','41311','City11'),
+(12,'hospital12@gmail.com','Hospital 12','9800000012','Street 12','41312','City12'),
+(13,'hospital13@gmail.com','Hospital 13','9800000013','Street 13','41313','City13'),
+(14,'hospital14@gmail.com','Hospital 14','9800000014','Street 14','41314','City14'),
+(15,'hospital15@gmail.com','Hospital 15','9800000015','Street 15','41315','City15'),
+(16,'hospital16@gmail.com','Hospital 16','9800000016','Street 16','41316','City16'),
+(17,'hospital17@gmail.com','Hospital 17','9800000017','Street 17','41317','City17'),
+(18,'hospital18@gmail.com','Hospital 18','9800000018','Street 18','41318','City18'),
+(19,'hospital19@gmail.com','Hospital 19','9800000019','Street 19','41319','City19'),
+(20,'hospital20@gmail.com','Hospital 20','9800000020','Street 20','41320','City20');
+
+-- Donor
+INSERT INTO Donor VALUES
+(1,'Donor1','M','A+','9700000001','2025-01-02',21,'donor1@gmail.com','Area1','City1','41301',101),
+(2,'Donor2','F','A-','9700000002','2025-01-03',22,'donor2@gmail.com','Area2','City2','41302',102),
+(3,'Donor3','M','B+','9700000003','2025-01-04',23,'donor3@gmail.com','Area3','City3','41303',103),
+(4,'Donor4','F','B-','9700000004','2025-01-05',24,'donor4@gmail.com','Area4','City4','41304',104),
+(5,'Donor5','M','O+','9700000005','2025-01-06',25,'donor5@gmail.com','Area5','City5','41305',105),
+(6,'Donor6','F','O-','9700000006','2025-01-07',26,'donor6@gmail.com','Area6','City6','41306',106),
+(7,'Donor7','M','AB+','9700000007','2025-01-08',27,'donor7@gmail.com','Area7','City7','41307',107),
+(8,'Donor8','F','AB-','9700000008','2025-01-09',28,'donor8@gmail.com','Area8','City8','41308',108),
+(9,'Donor9','M','A+','9700000009','2025-01-10',29,'donor9@gmail.com','Area9','City9','41309',109),
+(10,'Donor10','F','A-','9700000010','2025-01-11',30,'donor10@gmail.com','Area10','City10','41310',110),
+(11,'Donor11','M','B+','9700000011','2025-01-12',31,'donor11@gmail.com','Area11','City11','41311',111),
+(12,'Donor12','F','B-','9700000012','2025-01-13',32,'donor12@gmail.com','Area12','City12','41312',112),
+(13,'Donor13','M','O+','9700000013','2025-01-14',33,'donor13@gmail.com','Area13','City13','41313',113),
+(14,'Donor14','F','O-','9700000014','2025-01-15',34,'donor14@gmail.com','Area14','City14','41314',114),
+(15,'Donor15','M','AB+','9700000015','2025-01-16',35,'donor15@gmail.com','Area15','City15','41315',115),
+(16,'Donor16','F','AB-','9700000016','2025-01-17',36,'donor16@gmail.com','Area16','City16','41316',116),
+(17,'Donor17','M','A+','9700000017','2025-01-18',37,'donor17@gmail.com','Area17','City17','41317',117),
+(18,'Donor18','F','A-','9700000018','2025-01-19',38,'donor18@gmail.com','Area18','City18','41318',118),
+(19,'Donor19','M','B+','9700000019','2025-01-20',39,'donor19@gmail.com','Area19','City19','41319',119),
+(20,'Donor20','F','B-','9700000020','2025-01-21',40,'donor20@gmail.com','Area20','City20','41320',120);
+
+-- DonationCamp
+INSERT INTO DonationCamp VALUES
+(1,1,'Camp 1','Location 1','2025-02-02','9600000001'),
+(2,2,'Camp 2','Location 2','2025-02-03','9600000002'),
+(3,3,'Camp 3','Location 3','2025-02-04','9600000003'),
+(4,4,'Camp 4','Location 4','2025-02-05','9600000004'),
+(5,5,'Camp 5','Location 5','2025-02-06','9600000005'),
+(6,6,'Camp 6','Location 6','2025-02-07','9600000006'),
+(7,7,'Camp 7','Location 7','2025-02-08','9600000007'),
+(8,8,'Camp 8','Location 8','2025-02-09','9600000008'),
+(9,9,'Camp 9','Location 9','2025-02-10','9600000009'),
+(10,10,'Camp 10','Location 10','2025-02-11','9600000010'),
+(11,11,'Camp 11','Location 11','2025-02-12','9600000011'),
+(12,12,'Camp 12','Location 12','2025-02-13','9600000012'),
+(13,13,'Camp 13','Location 13','2025-02-14','9600000013'),
+(14,14,'Camp 14','Location 14','2025-02-15','9600000014'),
+(15,15,'Camp 15','Location 15','2025-02-16','9600000015'),
+(16,16,'Camp 16','Location 16','2025-02-17','9600000016'),
+(17,17,'Camp 17','Location 17','2025-02-18','9600000017'),
+(18,18,'Camp 18','Location 18','2025-02-19','9600000018'),
+(19,19,'Camp 19','Location 19','2025-02-20','9600000019'),
+(20,20,'Camp 20','Location 20','2025-02-21','9600000020');
+
+-- Donation
+INSERT INTO Donation VALUES
+(1,1,1,'2025-03-02',1),
+(2,2,2,'2025-03-03',1),
+(3,3,3,'2025-03-04',1),
+(4,4,4,'2025-03-05',1),
+(5,5,5,'2025-03-06',1),
+(6,6,6,'2025-03-07',1),
+(7,7,7,'2025-03-08',1),
+(8,8,8,'2025-03-09',1),
+(9,9,9,'2025-03-10',1),
+(10,10,10,'2025-03-11',1),
+(11,11,11,'2025-03-12',1),
+(12,12,12,'2025-03-13',1),
+(13,13,13,'2025-03-14',1),
+(14,14,14,'2025-03-15',1),
+(15,15,15,'2025-03-16',1),
+(16,16,16,'2025-03-17',1),
+(17,17,17,'2025-03-18',1),
+(18,18,18,'2025-03-19',1),
+(19,19,19,'2025-03-20',1),
+(20,20,20,'2025-03-21',1);
+
+-- BloodBank
+INSERT INTO BloodBank VALUES
+(1,101,'BloodBank 1','City1','9500000001','bb1@gmail.com',510),
+(2,102,'BloodBank 2','City2','9500000002','bb2@gmail.com',520),
+(3,103,'BloodBank 3','City3','9500000003','bb3@gmail.com',530),
+(4,104,'BloodBank 4','City4','9500000004','bb4@gmail.com',540),
+(5,105,'BloodBank 5','City5','9500000005','bb5@gmail.com',550),
+(6,106,'BloodBank 6','City6','9500000006','bb6@gmail.com',560),
+(7,107,'BloodBank 7','City7','9500000007','bb7@gmail.com',570),
+(8,108,'BloodBank 8','City8','9500000008','bb8@gmail.com',580),
+(9,109,'BloodBank 9','City9','9500000009','bb9@gmail.com',590),
+(10,110,'BloodBank 10','City10','9500000010','bb10@gmail.com',600),
+(11,111,'BloodBank 11','City11','9500000011','bb11@gmail.com',610),
+(12,112,'BloodBank 12','City12','9500000012','bb12@gmail.com',620),
+(13,113,'BloodBank 13','City13','9500000013','bb13@gmail.com',630),
+(14,114,'BloodBank 14','City14','9500000014','bb14@gmail.com',640),
+(15,115,'BloodBank 15','City15','9500000015','bb15@gmail.com',650),
+(16,116,'BloodBank 16','City16','9500000016','bb16@gmail.com',660),
+(17,117,'BloodBank 17','City17','9500000017','bb17@gmail.com',670),
+(18,118,'BloodBank 18','City18','9500000018','bb18@gmail.com',680),
+(19,119,'BloodBank 19','City19','9500000019','bb19@gmail.com',690),
+(20,120,'BloodBank 20','City20','9500000020','bb20@gmail.com',700);
+
+-- BloodBag
+INSERT INTO BloodBag VALUES
+(101,1,1,'A+','2025-03-02','2025-05-02',1),
+(102,2,2,'A-','2025-03-03','2025-05-03',1),
+(103,3,3,'B+','2025-03-04','2025-05-04',1),
+(104,4,4,'B-','2025-03-05','2025-05-05',1),
+(105,5,5,'O+','2025-03-06','2025-05-06',1),
+(106,6,6,'O-','2025-03-07','2025-05-07',1),
+(107,7,7,'AB+','2025-03-08','2025-05-08',1),
+(108,8,8,'AB-','2025-03-09','2025-05-09',1),
+(109,9,9,'A+','2025-03-10','2025-05-10',1),
+(110,10,10,'A-','2025-03-11','2025-05-11',1),
+(111,11,11,'B+','2025-03-12','2025-05-12',1),
+(112,12,12,'B-','2025-03-13','2025-05-13',1),
+(113,13,13,'O+','2025-03-14','2025-05-14',1),
+(114,14,14,'O-','2025-03-15','2025-05-15',1),
+(115,15,15,'AB+','2025-03-16','2025-05-16',1),
+(116,16,16,'AB-','2025-03-17','2025-05-17',1),
+(117,17,17,'A+','2025-03-18','2025-05-18',1),
+(118,18,18,'A-','2025-03-19','2025-05-19',1),
+(119,19,19,'B+','2025-03-20','2025-05-20',1),
+(120,20,20,'B-','2025-03-21','2025-05-21',1);
+
+-- Recipient
+INSERT INTO Recipient VALUES
+(1,1,'Recipient1','9400000001','recipient1@gmail.com','F',26,'B-'),
+(2,2,'Recipient2','9400000002','recipient2@gmail.com','M',27,'O+'),
+(3,3,'Recipient3','9400000003','recipient3@gmail.com','F',28,'O-'),
+(4,4,'Recipient4','9400000004','recipient4@gmail.com','M',29,'AB+'),
+(5,5,'Recipient5','9400000005','recipient5@gmail.com','F',30,'AB-'),
+(6,6,'Recipient6','9400000006','recipient6@gmail.com','M',31,'A+'),
+(7,7,'Recipient7','9400000007','recipient7@gmail.com','F',32,'A-'),
+(8,8,'Recipient8','9400000008','recipient8@gmail.com','M',33,'B+'),
+(9,9,'Recipient9','9400000009','recipient9@gmail.com','F',34,'B-'),
+(10,10,'Recipient10','9400000010','recipient10@gmail.com','M',35,'O+'),
+(11,11,'Recipient11','9400000011','recipient11@gmail.com','F',36,'O-'),
+(12,12,'Recipient12','9400000012','recipient12@gmail.com','M',37,'AB+'),
+(13,13,'Recipient13','9400000013','recipient13@gmail.com','F',38,'AB-'),
+(14,14,'Recipient14','9400000014','recipient14@gmail.com','M',39,'A+'),
+(15,15,'Recipient15','9400000015','recipient15@gmail.com','F',40,'A-'),
+(16,16,'Recipient16','9400000016','recipient16@gmail.com','M',41,'B+'),
+(17,17,'Recipient17','9400000017','recipient17@gmail.com','F',42,'B-'),
+(18,18,'Recipient18','9400000018','recipient18@gmail.com','M',43,'O+'),
+(19,19,'Recipient19','9400000019','recipient19@gmail.com','F',44,'O-'),
+(20,20,'Recipient20','9400000020','recipient20@gmail.com','M',45,'AB+');
+
+-- Request
+INSERT INTO Request VALUES
+(1,1,1,'2025-04-02','Pending',2),
+(2,2,2,'2025-04-03','Approved',3),
+(3,3,3,'2025-04-04','Pending',1),
+(4,4,4,'2025-04-05','Approved',2),
+(5,5,5,'2025-04-06','Pending',3),
+(6,6,6,'2025-04-07','Approved',1),
+(7,7,7,'2025-04-08','Pending',2),
+(8,8,8,'2025-04-09','Approved',3),
+(9,9,9,'2025-04-10','Pending',1),
+(10,10,10,'2025-04-11','Approved',2),
+(11,11,11,'2025-04-12','Pending',3),
+(12,12,12,'2025-04-13','Approved',1),
+(13,13,13,'2025-04-14','Pending',2),
+(14,14,14,'2025-04-15','Approved',3),
+(15,15,15,'2025-04-16','Pending',1),
+(16,16,16,'2025-04-17','Approved',2),
+(17,17,17,'2025-04-18','Pending',3),
+(18,18,18,'2025-04-19','Approved',1),
+(19,19,19,'2025-04-20','Pending',2),
+(20,20,20,'2025-04-21','Approved',3);
