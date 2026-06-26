@@ -1,12 +1,27 @@
-# Blood Donation Tracker
+#  Blood Donation Tracker
 
-## Description
+A desktop-based **Blood Donation Management System** developed using **Java, Java Swing, JDBC, and MySQL**. This application helps manage donors, recipients, hospitals, blood banks, blood donations, and blood requests through an interactive graphical user interface (GUI).
 
-Blood Donation Tracker is a desktop-based Blood Donation Management System developed using Java, Java Swing, JDBC, and MySQL. The application helps manage donors, recipients, hospitals, blood banks, blood donations, and blood requests through an interactive graphical user interface.
+The project was developed as a **Database Management Systems (DBMS) Mini Project** and demonstrates database design, JDBC connectivity, CRUD operations, SQL programming, and advanced DBMS concepts.
 
-The project was developed as a DBMS mini-project and demonstrates database design, CRUD operations, JDBC connectivity, and advanced DBMS concepts.
+---
 
-## Technologies Used
+#  Features
+
+* Donor Management
+* Recipient Management
+* Hospital Management
+* Blood Bank Management
+* Blood Donation Records
+* Blood Request Tracking
+* Insert, Update, Delete, and View Records (CRUD Operations)
+* Analysis and Report Generation
+* Interactive Java Swing GUI
+* MySQL Database Integration using JDBC
+
+---
+
+#  Technologies Used
 
 * Java
 * Java Swing
@@ -14,18 +29,9 @@ The project was developed as a DBMS mini-project and demonstrates database desig
 * MySQL
 * SQL
 
-## Features
+---
 
-* Donor Management
-* Recipient Management
-* Hospital Management
-* Blood Bank Management
-* Blood Request Tracking
-* CRUD Operations
-* SQL Queries and Reports
-* Java Swing GUI
-
-## Advanced DBMS Concepts
+#  Advanced DBMS Concepts Implemented
 
 * Stored Procedures
 * Functions
@@ -33,52 +39,115 @@ The project was developed as a DBMS mini-project and demonstrates database desig
 * Cursors
 * Joins
 * Aggregate Functions
+* Constraints
+* Primary & Foreign Keys
 
-## Project Structure
+---
 
+#  Project Structure
+
+```
 Blood-Donation-Tracker/
-├── docs/
+│
 ├── src/
+│   └── dbms/
+│       ├── DBMS.java
+│       └── BloodBankDashboard.java
+│
 ├── database/
+│   ├── schema.sql
+│   └── sample_data.sql
+│
 ├── screenshots/
+│   ├── dashboard.png
+│   ├── insert_data.png
+│   ├── view_data.png
+│   ├── update_data.png
+│   ├── delete_data.png
+│   └── report_and_analysis.png
+│
+├── docs/
+│   └── Project_Report.pdf
+│
 └── README.md
+```
 
+---
 
-## Visuals / Demo
+#  Installation
 
-Project screenshots will be added to the screenshots folder.
+1. Clone this repository:
 
-## Installation
+git clone https://github.com/anushkaKailash05/Blood-Donation-Tracker.git
 
-1. Clone the repository.
-2. Create the MySQL database.
-3. Import the database schema.
-4. Configure JDBC connection settings.
-5. Compile and run the Java application.
+2. Open MySQL and create a new database.
 
-## Usage
+3. Execute the SQL files in the following order:
 
-The application provides a graphical interface to:
+* database/schema.sql
+* database/sample_data.sql
 
-* Add donor records
-* Manage blood banks
-* Process blood requests
-* Generate reports
+4. Update the MySQL username and password in the Java files if required.
+
+5. Open the project in Eclipse or any Java IDE.
+
+6. Compile and run:
+
+BloodBankDashboard.java
+
+---
+
+#  Usage
+
+The application allows users to:
+
+* Add donor information
+* Manage recipient details
+* Maintain blood bank records
+* Track blood requests
 * Perform CRUD operations
+* Generate reports and analysis
 
-## Contributing
+---
 
-Contributions, suggestions, and improvements are welcome. Please open an issue or submit a pull request.
+#  Documentation
 
-## License
+The complete project report is available in the **docs** folder.
 
-This project is intended for educational purposes.
+---
 
-## Documentation
+#  Future Enhancements
 
-The complete project report is available in the `docs` folder.
+* User Authentication
+* Email Notifications
+* Blood Stock Alerts
+* Cloud Database Integration
+* REST API Support
+* Online Blood Donation Portal
 
-## Author
+---
 
-Anushka Satpute
+#  Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Submit a Pull Request.
+
+---
+
+#  License
+
+This project was developed for educational purposes as part of a **Database Management Systems (DBMS) Mini Project**.
+
+---
+
+#  Author
+
+**Anushka Satpute**
+
 B.Tech Computer Engineering
+
+GitHub: [Anushka Satpute](https://github.com/anushkaKailash05)
